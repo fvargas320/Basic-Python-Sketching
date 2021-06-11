@@ -4,15 +4,18 @@ def createTurtle():
 
     def move_forward():
         leo.forward(10)
+
     def move_backward():
         leo.back(10)
 
     def move_right():
         new_heading = leo.heading() + 10
         leo.setheading(new_heading)
+        
     def move_left():
         new_heading = leo.heading() - 10
         leo.setheading(new_heading)
+
     def clear():
         leo.clear()
         leo.penup()
